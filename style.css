@@ -893,3 +893,28 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/*--------------------------------------------------------------
+## Layout
+--------------------------------------------------------------*/
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%
+}
+
+.home {
+    max-width: 520px;
+    width: 90%;
+}
+header#masthead {
+	text-align: center;
+}
+.entry-meta {
+	color: #888;
+	font-size: .85rem;
+	padding-bottom: 1.5rem
+}
+article:not(:last-of-type) {
+	border-bottom: 1px solid #EEE;
+}
