@@ -18,10 +18,10 @@ function micro_posted_on() {
 	}
 
 	$time_string = sprintf( $time_string,
-		esc_attr( get_the_date( 'F j, Y g:i a' ) ),
-		esc_html( get_the_date( 'F j, Y g:i a' ) ),
-		esc_attr( get_the_modified_date( 'F j, Y g:i a' ) ),
-		esc_html( get_the_modified_date( 'F j, Y g:i a' ) )
+		esc_attr( get_the_date( 'l, F j, Y \a\t g:i a' ) ),
+		esc_html( get_the_date( 'l, F j, Y \a\t g:i a' ) ),
+		esc_attr( get_the_modified_date( 'l, F j, Y \a\t g:i a' ) ),
+		esc_html( get_the_modified_date( 'l, F j, Y \a\t g:i a' ) )
 	);
 
 	$posted_on = sprintf(

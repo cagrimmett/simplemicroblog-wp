@@ -6,8 +6,10 @@ I used the [_s](https://github.com/Automattic/_s) starter theme as the base I'm 
 
 ## Roadmap
 
-- [ ] Gravatar header pull-in from admin's email address
-- [ ] Integrate a grid framework to make the theme mobile responsive
+- [x] Gravatar header pull-in from admin's email address
+- [ ] Make the theme mobile responsive
 - [ ] Turn title on and off for posts
-- [ ] Tagline output below header image
-- [ ] Social icon outputs
+- [x] Tagline output below header image
+- [ ] Include a customizer panel for micro.blog verification
+- [ ] Include footer widgets for adding extra info
+- [ ] Clean pagination

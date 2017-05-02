@@ -17,7 +17,7 @@
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'micro' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'micro' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'micro' ), 'micro', '<a href="https://automattic.com/" rel="designer">cagrimmett</a>' ); ?>
+			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'micro' ), 'micro', '<a href="http://www.cagrimmett.com/" rel="designer">cagrimmett</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
