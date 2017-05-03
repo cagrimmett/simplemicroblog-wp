@@ -21,3 +21,4 @@ I used the [_s](https://github.com/Automattic/_s) starter theme as the base I'm 
 - [ ] Include a customizer panel for micro.blog verification
 - [ ] Include footer widgets for adding extra info
 - [ ] Clean pagination
+- [ ] Add emoji support
