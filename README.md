@@ -4,6 +4,14 @@ This will be a minimalist microblogging WordPress theme. After learning about th
 
 I used the [_s](https://github.com/Automattic/_s) starter theme as the base I'm working from. 
 
+## Particulars
+
+- Header image is the [gravatar](http://gravatar.com) pulled in from the administrator's email address. 
+- The title under the header image is the site's title
+- Comments are turned off
+
+
+
 ## Roadmap
 
 - [x] Gravatar header pull-in from admin's email address

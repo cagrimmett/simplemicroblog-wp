@@ -922,3 +922,6 @@ article:not(:last-of-type) {
 #header-avatar img {
 	border-radius: 50%;
 }
+.entry-title {
+	display:none;
+}

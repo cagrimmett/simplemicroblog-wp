@@ -14,6 +14,13 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div id="footer-widgets">
+			<?php
+				if(is_active_sidebar('footer-widgets')){
+				dynamic_sidebar('footer-widgets');
+				}
+			?>
+		</div>
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'micro' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'micro' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
