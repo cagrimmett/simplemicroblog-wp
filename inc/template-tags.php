@@ -65,7 +65,7 @@ function micro_entry_footer() {
 			esc_html__( 'Edit %s', 'micro' ),
 			the_title( '<span class="screen-reader-text">"', '"</span>', false )
 		),
-		'<span class="edit-link">',
+		'<br /><span class="edit-link">',
 		'</span>'
 	);
 }
