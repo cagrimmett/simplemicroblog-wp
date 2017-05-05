@@ -19,6 +19,7 @@ I used the [_s](https://github.com/Automattic/_s) starter theme as the base I'm 
 - [x] Turn title on and off for posts
 - [x] Tagline output below header image
 - [ ] Include a customizer panel for micro.blog verification
-- [ ] Include footer widgets for adding extra info
+- [x] Include footer widgets for adding extra info
 - [ ] Clean pagination
 - [ ] Add emoji support
+- [x] Add basic sidebar
