@@ -337,6 +337,7 @@ big {
 	font-size: 125%;
 }
 
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -505,18 +506,15 @@ textarea {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
-a {
-	color: royalblue;
-}
-
-a:visited {
-	color: purple;
+a, a:visited {
+	color: #21759b;
+	text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	text-decoration: underline;
 }
 
 a:focus {
