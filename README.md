@@ -18,7 +18,7 @@ I used the [_s](https://github.com/Automattic/_s) starter theme as the base I'm 
 - [ ] Make the theme mobile responsive
 - [x] Turn title on and off for posts
 - [x] Tagline output below header image
-- [v] Include a settings page for micro.blog verification
+- [x] Include a settings page for micro.blog verification
 - [x] Include footer widgets for adding extra info
 - [ ] Clean pagination
 - [ ] Add emoji support
