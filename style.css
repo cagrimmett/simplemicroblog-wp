@@ -778,16 +778,6 @@ a:active {
 	margin: 0 0 1.5em;
 }
 
-/*--------------------------------------------------------------
-## Comments
---------------------------------------------------------------*/
-.comment-content a {
-	word-wrap: break-word;
-}
-
-.bypostauthor {
-	display: block;
-}
 
 /*--------------------------------------------------------------
 # Infinite scroll
@@ -842,6 +832,14 @@ object {
 
 .wp-caption-text {
 	text-align: center;
+}
+
+blockquote {
+	background: url(assets/images/quote.png) left 4px no-repeat;
+	padding-left: 55px;
+	margin: 30px 0;
+	font-size: 1.231em;
+	color: #ababab
 }
 
 /*--------------------------------------------------------------
@@ -931,7 +929,7 @@ body {
 header#masthead {
 	text-align: center;
 }
-.entry-meta {
+.entry-footer {
 	color: #888;
 	font-size: .85rem;
 	padding-bottom: 1.5rem
