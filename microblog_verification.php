@@ -40,7 +40,7 @@ class MicroBlogVerificationPage
         ?>
         <div class="wrap">
             <h1>Micro.blog Verification</h1>
-            <form method="post" action="microblog_verification.php">
+            <form method="post" action="options.php">
             <?php
                 // This prints out all hidden setting fields
                 settings_fields( 'my_option_group' );
