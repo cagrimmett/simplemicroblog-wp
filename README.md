@@ -7,8 +7,8 @@ I used the [_s](https://github.com/Automattic/_s) starter theme as the base I'm 
 ## Particulars
 
 - Header image is the [gravatar](http://gravatar.com) pulled in from the administrator's email address. 
-- The title under the header image is the site's title
-- Comments are turned off
+- Admin page has the ability to suppress the title for posts on the homepage and single pages
+- Comments are turned off globally
 
 
 
@@ -16,7 +16,7 @@ I used the [_s](https://github.com/Automattic/_s) starter theme as the base I'm 
 
 - [x] Gravatar header pull-in from admin's email address
 - [ ] Make the theme mobile responsive
-- [ ] Turn title on and off for posts
+- [x] Turn title on and off for posts
 - [x] Tagline output below header image
 - [ ] Include a customizer panel for micro.blog verification
 - [ ] Include footer widgets for adding extra info
