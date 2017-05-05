@@ -151,6 +151,11 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
+/**
+ * Add microblog verification setting page
+ */
+require get_template_directory() . '/microblog_verification.php';
+
 /*--------------------------------------------------------------
 Remove comments
 Functions from https://gist.github.com/mattclements/eab5ef656b2f946c4bfb
@@ -270,3 +275,7 @@ function wptr_save_meta( $post_id, $post ) {
 	$form_data = ( isset( $_POST['wptr-hide-title-checkbox'] ) ?  $_POST['wptr-hide-title-checkbox'] : '0' );
 	update_post_meta( $post_id, 'wptr_hide_title', $form_data );
 }
+
+/*--------------------------------------------------
+	Theme Options panel - https://codex.wordpress.org/Creating_Options_Pages
+----------------------------------------------------*/
