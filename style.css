@@ -1,14 +1,14 @@
 /*
 Theme Name: micro
-Theme URI: http://underscores.me/
+Theme URI: https://github.com/cagrimmett/microblog-wp
 Author: cagrimmett
-Author URI: http://cagrimmett.com
-Description: Another WordPress Microblog
+Author URI: http://micro.cagrimmett.com
+Description: Microblogging theme made to be used with Micro.blog
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: micro
-Tags:
+Tags: microblog
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -917,11 +917,11 @@ body {
 	padding-right:25px;
 	padding-left: 25px;
 }
-#sidebar aside ul {
+#sidebar aside ul, footer ul {
 	margin:0;
 	padding: 0;
 }
-#sidebar aside ul li {
+#sidebar aside ul li, footer ul li {
 	list-style: none;
 }
 header#masthead {

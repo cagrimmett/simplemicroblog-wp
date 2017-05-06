@@ -9,17 +9,18 @@ I used the [_s](https://github.com/Automattic/_s) starter theme as the base I'm 
 - Header image is the [gravatar](http://gravatar.com) pulled in from the administrator's email address. 
 - Admin page has the ability to suppress the title for posts on the homepage and single pages
 - Comments are turned off globally
+- This theme makes it easy to [verify your website with Micro.blog](http://help.micro.blog/2017/web-site-verification/). In the WordPress admin, go to Settings > Micro.blog Verification and put in your Micro.blog username. 
 
 
 
 ## Roadmap
 
 - [x] Gravatar header pull-in from admin's email address
-- [ ] Make the theme mobile responsive
+- [x] Make the theme mobile responsive
 - [x] Turn title on and off for posts
 - [x] Tagline output below header image
 - [x] Include a settings page for micro.blog verification
 - [x] Include footer widgets for adding extra info
+- [x] Add basic sidebar
 - [ ] Clean pagination
 - [ ] Add emoji support
-- [x] Add basic sidebar
