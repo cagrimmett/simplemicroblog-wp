@@ -1,6 +1,6 @@
-# microblog
+# simple-microblog
 
-This is a minimalist microblogging WordPress theme. After learning about the [micro.blog](http://micro.blog) project, I decided that I wanted to host my own microblog and use the micro.blog service to cross-post to Twitter, Facebook, and micro.blog. Since I already have my own website, I want this theme to be very minimal.
+This is a minimalist microblogging WordPress theme. After learning about the [micro.blog](http://micro.blog) project, I decided that I wanted to host my own microblog and use the micro.blog service to cross-post to Twitter, Facebook, and micro.blog.
 
 ![Screenshot](screenshot.png)
 
@@ -11,7 +11,7 @@ This is a minimalist microblogging WordPress theme. After learning about the [mi
 - Comments are turned off globally
 - This theme makes it easy to [verify your website with Micro.blog](http://help.micro.blog/2017/web-site-verification/). In the WordPress admin, go to Settings > Micro.blog Verification and put in your Micro.blog username. 
 - Requires at least: 4.0
-- Tested up to: 4.7
+- Tested up to: 4.7.4
 - Stable tag: 1.0.0
 - License: GNU General Public License v2
 
