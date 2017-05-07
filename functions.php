@@ -276,6 +276,3 @@ function wptr_save_meta( $post_id, $post ) {
 	update_post_meta( $post_id, 'wptr_hide_title', $form_data );
 }
 
-/*--------------------------------------------------
-	Theme Options panel - https://codex.wordpress.org/Creating_Options_Pages
-----------------------------------------------------*/
