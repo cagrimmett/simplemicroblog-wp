@@ -985,4 +985,11 @@ footer.site-footer #footer-content-right {
 		width: 100%;
 		padding: 0;
 	}
+	#header-avatar img {
+		width:128px;
+		height: 128px;
+	}
+	h1.site-title {
+		font-size:1.25em;
+	}
 }
