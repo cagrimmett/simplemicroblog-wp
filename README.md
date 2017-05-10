@@ -6,8 +6,10 @@ This is a minimalist microblogging WordPress theme. After learning about the [mi
 
 ## Particulars
 
-- Header image is the [gravatar](http://gravatar.com) pulled in from the administrator's email address. 
-- Admin page has the ability to suppress the title for posts on the homepage and single pages
+- Header image is the [gravatar](http://gravatar.com) pulled in from the administrator's email address. To change the header image, change the administrator's email address and/or change your main image at Gravatar.
+- There is an option in the post editor to suppress the title for posts on the homepage and single pages
+- There is no main menu at the top. If you want a menu to get to sub pages, [create a menu](https://codex.wordpress.org/WordPress_Menu_User_Guide), then add a custom menu widget to the sidebar widget area.
+- The footer widget area is enabled. You can add any widget you like to the footer.  
 - Comments are turned off globally
 - This theme makes it easy to [verify your website with Micro.blog](http://help.micro.blog/2017/web-site-verification/). In the WordPress admin, go to Settings > Micro.blog Verification and put in your Micro.blog username. 
 - Requires at least: 4.0

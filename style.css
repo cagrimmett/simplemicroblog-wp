@@ -993,3 +993,13 @@ footer.site-footer #footer-content-right {
 		font-size:1.25em;
 	}
 }
+
+a.page-numbers {
+	border: 1px solid #eee;
+	padding: 5px;
+	margin: 5px;
+}
+a.page-numbers:hover {
+	background: #eee;
+	border: 1px solid #ddd;
+}
