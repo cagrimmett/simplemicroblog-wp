@@ -276,3 +276,13 @@ function wptr_save_meta( $post_id, $post ) {
 	update_post_meta( $post_id, 'wptr_hide_title', $form_data );
 }
 
+/*--------------------------------------------------
+	Fontawesome
+----------------------------------------------------*/
+
+function custom_styles() {
+    wp_register_style( 'fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', false, '4.7.0' );
+    wp_enqueue_style( 'fontawesome' );
+}
+add_action( 'wp_enqueue_scripts', 'custom_styles' );
+

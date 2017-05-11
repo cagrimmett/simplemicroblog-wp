@@ -12,6 +12,7 @@ This is a minimalist microblogging WordPress theme. After learning about the [mi
 - The footer widget area is enabled. You can add any widget you like to the footer.  
 - Comments are turned off globally
 - This theme makes it easy to [verify your website with Micro.blog](http://help.micro.blog/2017/web-site-verification/). In the WordPress admin, go to Settings > Micro.blog Verification and put in your Micro.blog username. 
+- Fontawesome is included via maxcdn because I like using icons.
 - Requires at least: 4.0
 - Tested up to: 4.7.4
 - Stable tag: 1.0.0
